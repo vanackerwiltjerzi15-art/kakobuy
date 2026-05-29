@@ -13,6 +13,15 @@ export default defineConfig({
     ['meta', { name: 'robots', content: 'index,follow' }],
     ['meta', { name: 'googlebot', content: 'index,follow' }],
     ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
+    
+    // Google Analytics 4
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-674NVFF73M' }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-674NVFF73M');
+    `],
   ],
   
   themeConfig: {
