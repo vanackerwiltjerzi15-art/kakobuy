@@ -8,6 +8,9 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   
+  // 忽略某些文件的死链检查
+  ignoreDeadLinks: true,
+  
   head: [
     ['meta', { name: 'theme-color', content: '#667eea' }],
     ['meta', { name: 'robots', content: 'index,follow' }],
