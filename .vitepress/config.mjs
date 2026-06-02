@@ -16,12 +16,12 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
     
     // Google Analytics 4
-    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-674NVFF73M' }],
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-ZQJ8BWRZZY' }],
     ['script', {}, `
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-674NVFF73M');
+      gtag('config', 'G-ZQJ8BWRZZY');
     `],
   ],
   
