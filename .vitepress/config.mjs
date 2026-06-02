@@ -7,8 +7,6 @@ export default defineConfig({
   lang: 'en-US',
   lastUpdated: true,
   cleanUrls: true,
-  
-  // 忽略某些文件的死链检查
   ignoreDeadLinks: true,
   
   head: [
@@ -52,6 +50,16 @@ export default defineConfig({
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2026 Kakobuy Spreadsheet Guide',
+    },
+    // 启用上一篇/下一篇导航
+    docFooter: {
+      prev: true,
+      next: true,
+    },
+    // 启用目录（TOC）
+    outline: {
+      level: 'deep',
+      label: 'On this page',
     },
   },
   
