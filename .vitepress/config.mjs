@@ -31,7 +31,8 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guides', link: '/posts/' },
+      { text: 'Other Platforms', link: '/platforms/' },
+      { text: 'Browse Guides', link: '/posts/' },
       { text: 'Spreadsheet', link: 'https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=1903531254#gid=1903531254', target: '_blank' },
     ],
     sidebar: [
@@ -44,11 +45,8 @@ export default defineConfig({
         ],
       },
     ],
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com' },
-    ],
     footer: {
-      message: 'Released under the MIT License.',
+      message: 'Kakobuy Spreadsheet Guide - Your trusted resource for cross-border e-commerce',
       copyright: 'Copyright © 2026 Kakobuy Spreadsheet Guide',
     },
     // 启用上一篇/下一篇导航
