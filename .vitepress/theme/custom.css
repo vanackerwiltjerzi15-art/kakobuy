@@ -403,12 +403,93 @@ body {
 }
 
 /* ============================================
+   Platforms Grid
+   ============================================ */
+
+.platforms-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin: 2.5rem 0;
+}
+
+.platform-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 180px;
+}
+
+.dark .platform-card {
+  background: #252540;
+}
+
+.platform-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(102, 126, 234, 0.25);
+}
+
+.platform-logo {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.platform-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.platform-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.dark .platform-name {
+  color: #eee;
+}
+
+.platform-cta {
+  font-size: 0.85rem;
+  color: #667eea;
+  font-weight: 600;
+  padding: 6px 18px;
+  border: 2px solid #667eea;
+  border-radius: 20px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.platform-card:hover .platform-cta {
+  background: #667eea;
+  color: white;
+}
+
+/* ============================================
    Responsive Styles
    ============================================ */
 
 @media (max-width: 1024px) {
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .platforms-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
   
   .hero-container {
@@ -445,6 +526,25 @@ body {
   
   .stat-number {
     font-size: 2rem;
+  }
+  
+  .platforms-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .platform-card {
+    padding: 1.5rem 1rem;
+    min-height: 160px;
+  }
+  
+  .platform-logo {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .platform-name {
+    font-size: 1rem;
   }
   
   .vp-doc h1 {
@@ -498,6 +598,31 @@ body {
   
   .stat-label {
     font-size: 0.8rem;
+  }
+  
+  .platforms-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+  
+  .platform-card {
+    padding: 1.2rem 0.8rem;
+    min-height: 140px;
+  }
+  
+  .platform-logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0.75rem;
+  }
+  
+  .platform-name {
+    font-size: 0.9rem;
+  }
+  
+  .platform-cta {
+    font-size: 0.75rem;
+    padding: 4px 12px;
   }
   
   .marquee-container {
