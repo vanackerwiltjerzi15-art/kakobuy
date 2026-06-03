@@ -333,7 +333,7 @@ After analyzing hundreds of threads and thousands of comments, here's the Reddit
 
 ## Related Resources
 
-- Kakobuy Official Platform: https://kakobuy.com
+- Kakobuy Official Platform: https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=1903531254#gid=1903531254
 - Reddit r/ecommerce Community: https://reddit.com/r/ecommerce
 - Reddit r/dropshipping: https://reddit.com/r/dropshipping
 - Gutefrage Guide: /posts/gutefrage-kakobuy-spreadsheet/

@@ -11,7 +11,7 @@ hero:
       link: /posts/
     - theme: alt
       text: Visit Kakobuy
-      link: https://kakobuy.com
+      link: https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=1903531254#gid=1903531254
 features:
   - icon: 📊
     title: Spreadsheet Guides

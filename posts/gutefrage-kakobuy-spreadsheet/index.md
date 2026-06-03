@@ -235,7 +235,7 @@ Whether you're a beginner looking to start your first product search or an exper
 
 ## Related Resources
 
-- Official Kakobuy Platform: https://kakobuy.com
+- Official Kakobuy Platform: https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=1903531254#gid=1903531254
 - Reddit Community Discussion: https://reddit.com/r/ecommerce
 - Quora Kakobuy Guide: /posts/quora-kakobuy-spreadsheet/
 - Reddit Kakobuy Thread: /posts/reddit-kakobuy-spreadsheet/
