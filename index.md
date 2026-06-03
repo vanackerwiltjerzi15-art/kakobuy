@@ -10,8 +10,11 @@ hero:
       text: Browse Guides
       link: /posts/
     - theme: alt
-      text: Visit Kakobuy
+      text: Kakobuy Platform
       link: https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=1903531254#gid=1903531254
+    - theme: alt
+      text: Other Platforms
+      link: /platforms/
 features:
   - icon: 📊
     title: Spreadsheet Guides
