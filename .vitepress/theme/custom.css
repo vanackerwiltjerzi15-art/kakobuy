@@ -339,6 +339,12 @@ body {
 
 .VPNav {
   top: 1.5rem !important;
+  z-index: 200 !important;
+}
+
+.VPSidebar {
+  top: 1.5rem !important;
+  z-index: 200 !important;
 }
 
 .VPContent {
