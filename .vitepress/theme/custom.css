@@ -26,11 +26,11 @@ body {
    Homepage Hero Styles
    ============================================ */
 
-/* --- Desktop: side-by-side layout --- */
+/* --- Desktop: side-by-side layout, image top-aligned with title --- */
 .VPHero .container {
   display: flex !important;
   flex-direction: row !important;
-  align-items: center !important;
+  align-items: flex-start !important;
   justify-content: space-between !important;
   gap: 2rem !important;
   max-width: 1200px !important;
@@ -43,11 +43,11 @@ body {
   min-width: 0 !important;
   text-align: left !important;
   order: 1 !important;
+  padding-top: 0 !important;
 }
 
 .VPHero .image {
-  flex: 0 1 40% !important;
-  max-width: 440px !important;
+  flex: 0 1 42% !important;
   min-width: 0 !important;
   order: 2 !important;
   position: relative !important;
@@ -593,7 +593,7 @@ body {
   .VPHero .container {
     flex-direction: column !important;
     gap: 0 !important;
-    padding: 0 !important;
+    padding: 0 1rem !important;
   }
   
   .VPHero .main {
@@ -615,18 +615,18 @@ body {
     left: auto !important;
     right: auto !important;
     transform: none !important;
-    margin-bottom: 1.25rem !important;
-    margin-top: 0 !important;
+    margin: 0 -1rem 1.25rem -1rem !important;
     padding: 0 !important;
     opacity: 1 !important;
     mask-image: none !important;
     -webkit-mask-image: none !important;
+    flex: none !important;
   }
   
   .VPHero .image-container {
     width: 100% !important;
     max-height: none !important;
-    border-radius: 10px !important;
+    border-radius: 0 !important;
   }
   
   .VPHero .image img,
@@ -635,7 +635,7 @@ body {
     height: auto !important;
     max-height: none !important;
     object-fit: contain !important;
-    border-radius: 10px !important;
+    border-radius: 0 !important;
   }
   
   .VPHero .name {
@@ -749,24 +749,24 @@ body {
 
 @media (max-width: 480px) {
   .VPHero .container {
-    padding: 0 !important;
+    padding: 0 0.75rem !important;
     gap: 0 !important;
   }
   
   .VPHero .image {
-    margin-bottom: 1rem !important;
+    margin: 0 -0.75rem 1rem -0.75rem !important;
   }
   
   .VPHero .image-container {
     max-height: none !important;
-    border-radius: 8px !important;
+    border-radius: 0 !important;
   }
   
   .VPHero .image img,
   .VPHero .image .VPImage {
     max-height: none !important;
     height: auto !important;
-    border-radius: 8px !important;
+    border-radius: 0 !important;
   }
   
   .VPHero .name {
