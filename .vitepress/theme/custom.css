@@ -26,16 +26,15 @@ body {
    Homepage Hero Styles
    ============================================ */
 
-/* --- Desktop: side-by-side layout with no overlap --- */
-.VPHero {
+/* --- Desktop: side-by-side layout --- */
+.VPHero .container {
   display: flex !important;
   flex-direction: row !important;
   align-items: center !important;
-  justify-content: center !important;
+  justify-content: space-between !important;
   gap: 2rem !important;
   max-width: 1200px !important;
   margin: 0 auto !important;
-  padding: 2rem 1rem !important;
 }
 
 .VPHero .main {
@@ -44,24 +43,32 @@ body {
   min-width: 0 !important;
   text-align: left !important;
   order: 1 !important;
-  z-index: 1 !important;
 }
 
 .VPHero .image {
-  flex: 0 1 45% !important;
-  max-width: 460px !important;
+  flex: 0 1 40% !important;
+  max-width: 440px !important;
   min-width: 0 !important;
   order: 2 !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  z-index: 1 !important;
+  position: relative !important;
+  width: auto !important;
+  height: auto !important;
+  top: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  opacity: 1 !important;
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
 }
 
 .VPHero .image-container {
-  position: relative !important;
   width: 100% !important;
-  max-width: 100% !important;
+  height: auto !important;
+  position: relative !important;
   overflow: visible !important;
   margin: 0 !important;
   padding: 0 !important;
@@ -570,29 +577,54 @@ body {
     font-size: 2.5rem;
   }
   
-  /* Tablet: still side-by-side but smaller image */
-  .VPHero .image img,
-  .VPHero .image .VPImage {
-    max-width: 380px !important;
+  .VPHero .container {
+    flex-direction: row !important;
+    gap: 1.5rem !important;
+  }
+  
+  .VPHero .image {
+    flex: 0 1 38% !important;
+    max-width: 360px !important;
   }
 }
 
 @media (max-width: 768px) {
   /* --- Mobile: stack vertically, image top, text below --- */
-  .VPHero {
+  .VPHero .container {
     flex-direction: column !important;
-    gap: 0.75rem !important;
-    padding: 1rem 1rem !important;
+    gap: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .VPHero .main {
+    order: 2 !important;
+    max-width: 100% !important;
+    text-align: center !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
   }
   
   .VPHero .image {
     order: 1 !important;
+    position: relative !important;
     width: 100% !important;
     max-width: 100% !important;
-    margin-bottom: 0 !important;
+    height: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+    margin-bottom: 1.25rem !important;
+    margin-top: 0 !important;
+    padding: 0 !important;
+    opacity: 1 !important;
+    mask-image: none !important;
+    -webkit-mask-image: none !important;
   }
   
   .VPHero .image-container {
+    width: 100% !important;
     max-height: none !important;
     border-radius: 10px !important;
   }
@@ -604,13 +636,6 @@ body {
     max-height: none !important;
     object-fit: contain !important;
     border-radius: 10px !important;
-  }
-  
-  .VPHero .main {
-    order: 2 !important;
-    max-width: 100% !important;
-    text-align: center !important;
-    padding-bottom: 0 !important;
   }
   
   .VPHero .name {
@@ -723,9 +748,13 @@ body {
 }
 
 @media (max-width: 480px) {
-  .VPHero {
-    padding: 0.75rem 0.75rem !important;
-    gap: 0.5rem !important;
+  .VPHero .container {
+    padding: 0 !important;
+    gap: 0 !important;
+  }
+  
+  .VPHero .image {
+    margin-bottom: 1rem !important;
   }
   
   .VPHero .image-container {
