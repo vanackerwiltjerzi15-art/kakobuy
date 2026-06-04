@@ -47,7 +47,7 @@ export default {
     const fullMarqueeContent = [...createMarqueeContent(), ...createMarqueeContent()]
     
     return h(DefaultTheme.Layout, null, {
-      'layout-bottom': () => h('div', { class: 'marquee-container' }, [
+      'layout-top': () => h('div', { class: 'marquee-container' }, [
         h('div', { class: 'marquee-track' }, fullMarqueeContent)
       ])
     })
