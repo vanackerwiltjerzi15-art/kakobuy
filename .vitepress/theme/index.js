@@ -3,26 +3,26 @@ import { h } from 'vue'
 import './custom.css'
 
 const marqueeData = [
-  { flag: '🇪🇺', text: 'European users have placed their orders' },
-  { flag: '🇺🇸', text: 'American users have placed their orders' },
-  { flag: '🇬🇧', text: 'UK users have placed their orders' },
-  { flag: '🇯🇵', text: 'Japanese users have placed their orders' },
-  { flag: '🇰🇷', text: 'Korean users have placed their orders' },
-  { flag: '🇦🇺', text: 'Australian users have placed their orders' },
-  { flag: '🇨🇦', text: 'Canadian users have placed their orders' },
-  { flag: '🇸🇬', text: 'Singaporean users have placed their orders' },
-  { flag: '🇲🇾', text: 'Malaysian users have placed their orders' },
-  { flag: '🇹🇭', text: 'Thai users have placed their orders' },
-  { flag: '🇩🇪', text: 'German users have placed their orders' },
-  { flag: '🇫🇷', text: 'French users have placed their orders' },
-  { flag: '🇧🇷', text: 'Brazilian users have placed their orders' },
-  { flag: '🇮🇳', text: 'Indian users have placed their orders' },
-  { flag: '🇦🇪', text: 'UAE users have placed their orders' },
-  { flag: '🇳🇬', text: 'Nigerian users have placed their orders' },
-  { flag: '🇷🇺', text: 'Russian users have placed their orders' },
-  { flag: '🇮🇩', text: 'Indonesian users have placed their orders' },
-  { flag: '🇵🇭', text: 'Filipino users have placed their orders' },
-  { flag: '🇻🇳', text: 'Vietnamese users have placed their orders' },
+  { text: 'European users have placed their orders' },
+  { text: 'American users have placed their orders' },
+  { text: 'British users have placed their orders' },
+  { text: 'Japanese users have placed their orders' },
+  { text: 'Korean users have placed their orders' },
+  { text: 'Australian users have placed their orders' },
+  { text: 'Canadian users have placed their orders' },
+  { text: 'Singaporean users have placed their orders' },
+  { text: 'Malaysian users have placed their orders' },
+  { text: 'Thai users have placed their orders' },
+  { text: 'German users have placed their orders' },
+  { text: 'French users have placed their orders' },
+  { text: 'Brazilian users have placed their orders' },
+  { text: 'Indian users have placed their orders' },
+  { text: 'United Arab Emirates users have placed their orders' },
+  { text: 'Nigerian users have placed their orders' },
+  { text: 'Russian users have placed their orders' },
+  { text: 'Indonesian users have placed their orders' },
+  { text: 'Filipino users have placed their orders' },
+  { text: 'Vietnamese users have placed their orders' },
 ]
 
 function createMarqueeContent() {
@@ -30,7 +30,6 @@ function createMarqueeContent() {
   marqueeData.forEach((item, index) => {
     items.push(
       h('div', { class: 'marquee-item', key: `item-${index}` }, [
-        h('span', { class: 'flag' }, item.flag),
         h('span', { class: 'text' }, item.text)
       ])
     )
