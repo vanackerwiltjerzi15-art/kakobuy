@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Shopping Platforms - Spreadsheet Links
+description: Compare spreadsheet links for Kakobuy, Superbuy, Litbuy and 10+ cross-border shopping platforms. Find the best sourcing tool for your needs.
+keywords: kakobuy, superbuy, litbuy, acbuy, shopping platform, cross-border ecommerce, product sourcing
 ---
 
 # Shopping Platforms

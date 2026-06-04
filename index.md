@@ -1,6 +1,8 @@
 ---
 layout: home
 title: Kakobuy Spreadsheet Guide - Your Ultimate Resource
+description: Your ultimate guide to Kakobuy spreadsheets for cross-border e-commerce. Expert tutorials, platform comparisons, and sourcing tips for international sellers.
+keywords: kakobuy spreadsheet, cross-border ecommerce, china sourcing, product research, wholesale procurement
 hero:
   name: Kakobuy Spreadsheet Guide
   text: Your Ultimate Resource for Cross-Border E-commerce

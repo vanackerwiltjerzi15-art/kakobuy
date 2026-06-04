@@ -269,6 +269,71 @@ Yes! Google Sheets mobile app works well:
 - ⚠️ Complex formulas harder to edit
 - 💡 Tip: Use mobile for quick updates, desktop for major work
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is the Kakobuy spreadsheet actually free or is there a catch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Actually free. No catch. Kakobuy makes money when you use their platform to place orders, not from the spreadsheet. It's a loss leader to attract customers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use the Kakobuy spreadsheet for suppliers outside Kakobuy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! The spreadsheet is platform-agnostic. Columns work the same whether your supplier is on Kakobuy, Alibaba, or a direct factory."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I handle sample tracking in the Kakobuy spreadsheet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Create a tracking table with columns for supplier, sample cost, sent date, expected delivery, received status, quality score, and notes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Kakobuy spreadsheet mobile-friendly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! The Google Sheets mobile app works well for viewing all data, editing cells, and adding comments. Use mobile for quick updates and desktop for major work."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Reddit Kakobuy Spreadsheet: What the Community Is Saying",
+  "description": "Deep dive into Kakobuy spreadsheet discussions from Reddit communities. Real experiences, honest reviews, and practical advice from active sellers.",
+  "author": {
+    "@type": "Organization",
+    "name": "Kakobuy Spreadsheet Guide"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kakobuy Spreadsheet Guide",
+    "url": "https://kakobuy-7zh.pages.dev"
+  },
+  "datePublished": "2026-05-27",
+  "dateModified": "2026-05-27",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kakobuy-7zh.pages.dev/posts/reddit-kakobuy-spreadsheet/"
+  }
+}
+</script>
+
 ## Controversial Takes from Reddit
 
 ### Hot Take #1: "Spreadsheets > SaaS Tools"
