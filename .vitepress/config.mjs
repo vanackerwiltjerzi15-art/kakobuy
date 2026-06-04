@@ -21,7 +21,9 @@ export default defineConfig({
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-674NVFF73M');
+      gtag('config', 'G-674NVFF73M', {
+        page_path: window.location.pathname === '/' ? '/dev/home' : window.location.pathname
+      });
     `],
   ],
   
