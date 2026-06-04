@@ -5,6 +5,9 @@ hero:
   name: Kakobuy Spreadsheet Guide
   text: Your Ultimate Resource for Cross-Border E-commerce
   tagline: Discover expert guides, tips, and resources for using Kakobuy spreadsheets effectively
+  image:
+    src: /image/kakobuy-spreadsheet-product-analytics.webp
+    alt: Kakobuy Spreadsheet product analytics dashboard showing real-time inventory tracking, sales data, and price comparison for cross-border e-commerce sourcing
   actions:
     - theme: brand
       text: Open Kakobuy Spreadsheet
