@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
-import { h, useData } from 'vue'
+import { h } from 'vue'
+import { useData } from 'vitepress'
 import './custom.css'
 import CustomDocLayout from './CustomDocLayout.vue'
 
