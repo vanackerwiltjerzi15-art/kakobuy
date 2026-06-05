@@ -47,11 +47,11 @@ body {
 }
 
 .VPHero .image {
-  flex: 0 1 42% !important;
+  flex: 0 1 45% !important;
   min-width: 0 !important;
   order: 2 !important;
   position: relative !important;
-  width: auto !important;
+  width: 100% !important;
   height: auto !important;
   top: auto !important;
   bottom: auto !important;
