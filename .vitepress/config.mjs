@@ -13,7 +13,7 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#667eea' }],
     ['meta', { name: 'robots', content: 'index,follow' }],
     ['meta', { name: 'googlebot', content: 'index,follow' }],
-    ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
+    ['link', { rel: 'icon', href: '/favicon.png', type: 'image/png' }],
     
     // Google Analytics 4
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-674NVFF73M' }],
@@ -29,7 +29,9 @@ export default defineConfig({
   
   themeConfig: {
     logo: {
-      src: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">📊</text></svg>',
+      src: '/favicon.png',
+      width: 24,
+      height: 24,
     },
     nav: [
       { text: 'Home', link: '/' },
