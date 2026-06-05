@@ -31,7 +31,7 @@ body {
 .VPHero .container {
   display: flex !important;
   flex-direction: row !important;
-  align-items: flex-start !important;
+  align-items: stretch !important;
   justify-content: space-between !important;
   gap: 2rem !important;
   margin: 0 auto !important;
