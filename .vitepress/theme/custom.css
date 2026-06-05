@@ -50,8 +50,7 @@ body {
   order: 2 !important;
   position: relative !important;
   width: 100% !important;
-  height: auto !important;
-  max-height: 350px !important;
+  height: 100% !important;
   top: auto !important;
   bottom: auto !important;
   left: auto !important;
@@ -67,7 +66,6 @@ body {
 .VPHero .image-container {
   width: 100% !important;
   height: 100% !important;
-  max-height: 350px !important;
   position: relative !important;
   overflow: hidden !important;
   margin: 0 !important;
@@ -90,22 +88,6 @@ body {
   padding: 0 !important;
   position: relative !important;
   transform: none !important;
-}
-
-.VPHero .image img,
-.VPHero .image .VPImage {
-  width: 100% !important;
-  height: auto !important;
-  object-fit: contain !important;
-  border-radius: 12px !important;
-  box-shadow: 0 8px 30px rgba(102, 126, 234, 0.2) !important;
-  display: block !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  position: relative !important;
-  transform: none !important;
-  mask-image: none !important;
-  -webkit-mask-image: none !important;
 }
 
 .hero-container {
