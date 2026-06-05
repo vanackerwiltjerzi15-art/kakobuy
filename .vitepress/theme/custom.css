@@ -38,8 +38,7 @@ body {
 }
 
 .VPHero .main {
-  flex: 0 1 55% !important;
-  max-width: 550px !important;
+  flex: 0 1 58% !important;
   min-width: 0 !important;
   text-align: left !important;
   order: 1 !important;
@@ -47,7 +46,7 @@ body {
 }
 
 .VPHero .image {
-  flex: 0 1 45% !important;
+  flex: 0 1 42% !important;
   min-width: 0 !important;
   order: 2 !important;
   position: relative !important;
@@ -73,6 +72,12 @@ body {
   margin: 0 !important;
   padding: 0 !important;
   border-radius: 12px !important;
+}
+
+.VPHero .image-src {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 16px;
 }
 
 .VPHero .image img,
