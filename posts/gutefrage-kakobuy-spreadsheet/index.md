@@ -7,6 +7,12 @@ author: Kakobuy Spreadsheet Guide
 date: 2026-05-27
 lastUpdated: 2026-05-27
 hasFAQ: true
+brandKeywords:
+  - Kakobuy
+  - Gutefrage
+  - 1688
+  - Taobao
+  - Sourcing
 ---
 
 # Gutefrage Kakobuy Spreadsheet: The Complete Guide for 2026

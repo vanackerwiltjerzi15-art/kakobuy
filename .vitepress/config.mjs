@@ -37,28 +37,17 @@ export default defineConfig({
       { text: 'Browse Guides', link: '/posts/' },
       { text: 'Spreadsheet', link: 'https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=1903531254#gid=1903531254', target: '_blank' },
     ],
-    sidebar: [
-      {
-        text: 'Kakobuy Guides',
-        items: [
-          { text: 'Gutefrage Kakobuy Spreadsheet', link: '/posts/gutefrage-kakobuy-spreadsheet/' },
-          { text: 'Quora Kakobuy Spreadsheet', link: '/posts/quora-kakobuy-spreadsheet/' },
-          { text: 'Reddit Kakobuy Spreadsheet', link: '/posts/reddit-kakobuy-spreadsheet/' },
-        ],
-      },
-    ],
+    // Sidebar disabled - handled by CustomDocLayout
+    sidebar: [],
     footer: {
       message: 'Kakobuy Spreadsheet Guide - Your trusted resource for cross-border e-commerce',
       copyright: 'Copyright © 2026 Kakobuy Spreadsheet Guide',
     },
     docFooter: {
-      prev: true,
-      next: true,
+      prev: false,
+      next: false,
     },
-    outline: {
-      level: 'deep',
-      label: 'On this page',
-    },
+    outline: false,
   },
   
   sitemap: {

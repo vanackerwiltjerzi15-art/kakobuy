@@ -388,6 +388,23 @@ body {
 }
 
 /* ============================================
+   Hide default VitePress sidebar/outline for doc pages
+   (CustomDocLayout handles the layout instead)
+   ============================================ */
+
+.VPSidebar,
+.VPDocAside {
+  display: none !important;
+}
+
+.VPDoc .content {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ============================================
    Global Marquee / Scrolling Banner
    ============================================ */
 

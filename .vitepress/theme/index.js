@@ -1,6 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
-import { h } from 'vue'
+import { h, useData } from 'vue'
 import './custom.css'
+import CustomDocLayout from './CustomDocLayout.vue'
 
 const marqueeData = [
   { text: 'European users have placed their orders' },
@@ -43,12 +44,16 @@ function createMarqueeContent() {
 export default {
   ...DefaultTheme,
   Layout() {
+    const { page } = useData()
+    const isDoc = page.value?.layout === 'doc'
+
     const fullMarqueeContent = [...createMarqueeContent(), ...createMarqueeContent()]
-    
+
     return h(DefaultTheme.Layout, null, {
       'layout-top': () => h('div', { class: 'marquee-container' }, [
         h('div', { class: 'marquee-track' }, fullMarqueeContent)
       ]),
+      'doc': () => isDoc ? h(CustomDocLayout) : undefined,
       'layout-bottom': () => h('a', {
         class: 'discord-float-btn',
         href: 'https://discord.gg/jtc399kUQV',

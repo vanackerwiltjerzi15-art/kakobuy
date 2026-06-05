@@ -7,6 +7,12 @@ author: Kakobuy Spreadsheet Guide
 date: 2026-05-27
 lastUpdated: 2026-05-27
 hasFAQ: true
+brandKeywords:
+  - Kakobuy
+  - Quora
+  - Alibaba
+  - AliExpress
+  - Dropshipping
 ---
 
 # Quora Kakobuy Spreadsheet: Lessons from International Sellers
