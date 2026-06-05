@@ -409,7 +409,7 @@ body {
   width: 100%;
   overflow: hidden;
   background: linear-gradient(90deg, #667eea 0%, #764ba2 50%, #667eea 100%);
-  padding: 0.45rem 0;
+  padding: 0.54rem 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -417,17 +417,17 @@ body {
 }
 
 .VPNav {
-  top: 2.8rem !important;
+  top: 3.36rem !important;
   z-index: 200 !important;
 }
 
 .VPSidebar {
-  top: 2.8rem !important;
+  top: 3.36rem !important;
   z-index: 200 !important;
 }
 
 .VPContent {
-  padding-top: 5.5rem;
+  padding-top: 6rem;
 }
 
 .marquee-container::before,
