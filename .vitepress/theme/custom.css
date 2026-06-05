@@ -27,18 +27,18 @@ body {
    ============================================ */
 
 /* --- Desktop: side-by-side layout, image top-aligned with title --- */
-/* 方案1：控制容器宽度 */
+/* 方案2：调整左右区域比例 */
 .VPHero .container {
   display: flex !important;
   flex-direction: row !important;
   align-items: flex-start !important;
   justify-content: space-between !important;
   gap: 2rem !important;
-  max-width: 1200px !important;
   margin: 0 auto !important;
 }
 
 .VPHero .main {
+  flex: 0 1 55% !important;
   min-width: 0 !important;
   text-align: left !important;
   order: 1 !important;
@@ -46,6 +46,7 @@ body {
 }
 
 .VPHero .image {
+  flex: 0 1 45% !important;
   min-width: 0 !important;
   order: 2 !important;
   position: relative !important;
