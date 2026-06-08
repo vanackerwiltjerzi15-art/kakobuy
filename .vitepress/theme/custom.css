@@ -997,6 +997,12 @@ body {
   color: #aaa;
 }
 
+.guide-card-link {
+  color: #667eea;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
 /* Sidebar */
 .posts-sidebar {
   position: sticky;

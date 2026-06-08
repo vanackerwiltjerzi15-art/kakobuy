@@ -36,9 +36,10 @@ const hotArticles = [
       <h1>All Guides</h1>
       <p class="posts-intro">Welcome to our comprehensive collection of Kakobuy spreadsheet guides. Find detailed tutorials, tips, and insights to help you make the most of this powerful cross-border e-commerce tool.</p>
 
-      <div v-for="(guide, index) in guides" :key="index" class="guide-card" @click="$router.push(guide.url)" style="cursor: pointer;">
+      <div v-for="(guide, index) in guides" :key="index" class="guide-card" @click="window.location.href = guide.url" style="cursor: pointer;">
         <h2>{{ guide.title }}</h2>
         <p class="guide-card-description">{{ guide.description }}</p>
+        <span class="guide-card-link">Read Full Guide →</span>
       </div>
     </div>
 
