@@ -31,7 +31,7 @@ body {
 /* 方案3：放大图片本身 */
 .VPHero {
   min-height: 400px !important;
-  padding: 5rem 0 2rem !important;
+  padding: 8rem 0 2rem !important;
 }
 
 .VPHero .container {
