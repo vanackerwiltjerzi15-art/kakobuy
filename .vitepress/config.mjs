@@ -83,7 +83,6 @@ export default defineConfig({
           url: hostname,
         },
         datePublished: frontmatter.date || '',
-        dateModified: frontmatter.lastUpdated || '',
         mainEntityOfPage: {
           '@type': 'WebPage',
           '@id': url,
