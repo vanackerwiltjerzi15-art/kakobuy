@@ -418,6 +418,10 @@ body {
   text-align: center !important;
 }
 
+.VPLastUpdated {
+  display: none !important;
+}
+
 /* ============================================
    Global Marquee / Scrolling Banner
    ============================================ */
