@@ -408,6 +408,16 @@ body {
   padding: 0 !important;
 }
 
+.VPDoc .content-container {
+  max-width: 900px !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
+}
+
+.VPDoc h1 {
+  text-align: center !important;
+}
+
 /* ============================================
    Global Marquee / Scrolling Banner
    ============================================ */
