@@ -1,7 +1,11 @@
 <script setup>
+import { useRouter } from 'vitepress'
+
+const router = useRouter()
+
 const guides = [
   {
-    title: '📊 Gutefrage Kakobuy Spreadsheet',
+    title: ' Gutefrage Kakobuy Spreadsheet',
     url: '/posts/gutefrage-kakobuy-spreadsheet/',
     description: "Everything you need to know about the Kakobuy spreadsheet discussed on Gutefrage, Germany's largest Q&A platform.",
     date: 'May 27, 2026',
@@ -15,7 +19,7 @@ const guides = [
     tags: ['Quora', 'Spreadsheet', 'International']
   },
   {
-    title: '🌐 Reddit Kakobuy Spreadsheet',
+    title: ' Reddit Kakobuy Spreadsheet',
     url: '/posts/reddit-kakobuy-spreadsheet/',
     description: 'Deep dive into the Kakobuy spreadsheet discussions from Reddit communities like r/ecommerce and r/dropshipping.',
     date: 'May 27, 2026',
@@ -28,6 +32,10 @@ const hotArticles = [
   { title: "Quora Kakobuy Spreadsheet - International Seller's Guide", url: '/posts/quora-kakobuy-spreadsheet/' },
   { title: 'Reddit Kakobuy Spreadsheet - Community Insights', url: '/posts/reddit-kakobuy-spreadsheet/' }
 ]
+
+const navigateTo = (url) => {
+  router.go(url)
+}
 </script>
 
 <template>
@@ -36,7 +44,7 @@ const hotArticles = [
       <h1>All Guides</h1>
       <p class="posts-intro">Welcome to our comprehensive collection of Kakobuy spreadsheet guides. Find detailed tutorials, tips, and insights to help you make the most of this powerful cross-border e-commerce tool.</p>
 
-      <div v-for="(guide, index) in guides" :key="index" class="guide-card" @click="window.location.href = guide.url" style="cursor: pointer;">
+      <div v-for="(guide, index) in guides" :key="index" class="guide-card" @click="navigateTo(guide.url)" style="cursor: pointer;">
         <h2>{{ guide.title }}</h2>
         <p class="guide-card-description">{{ guide.description }}</p>
         <span class="guide-card-link">Read Full Guide →</span>
