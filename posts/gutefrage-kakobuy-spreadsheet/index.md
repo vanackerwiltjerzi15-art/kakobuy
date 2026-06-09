@@ -5,7 +5,6 @@ description: Everything you need to know about the Kakobuy spreadsheet discussed
 keywords: gutefrage kakobuy spreadsheet, kakobuy spreadsheet, cross-border ecommerce, china sourcing, wholesale procurement
 author: Kakobuy Spreadsheet Guide
 date: 2026-05-27
-lastUpdated: 2026-05-27
 hasFAQ: true
 brandKeywords:
   - Kakobuy

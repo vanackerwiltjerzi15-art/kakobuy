@@ -5,7 +5,6 @@ description: Deep dive into Kakobuy spreadsheet discussions from Reddit communit
 keywords: reddit kakobuy spreadsheet, kakobuy review, ecommerce spreadsheet, reddit ecommerce, kakobuy sourcing tool
 author: Kakobuy Spreadsheet Guide
 date: 2026-05-27
-lastUpdated: 2026-05-27
 hasFAQ: true
 brandKeywords:
   - Kakobuy

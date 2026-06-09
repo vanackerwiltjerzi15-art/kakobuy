@@ -5,7 +5,6 @@ description: Comprehensive guide to the Kakobuy spreadsheet featured on Quora. L
 keywords: quora kakobuy spreadsheet, kakobuy spreadsheet guide, international ecommerce, cross-border sourcing, kakobuy tips
 author: Kakobuy Spreadsheet Guide
 date: 2026-05-27
-lastUpdated: 2026-05-27
 hasFAQ: true
 brandKeywords:
   - Kakobuy
