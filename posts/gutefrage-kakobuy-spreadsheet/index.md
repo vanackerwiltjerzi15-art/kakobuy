@@ -239,7 +239,7 @@ Whether you're a beginner looking to start your first product search or an exper
 ## Related Resources
 
 - Official Kakobuy Platform: https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=1903531254#gid=1903531254
-- Reddit Community Discussion: https://reddit.com/r/ecommerce
+- Google Site: https://sites.google.com/view/kakobuy-spreadsheet-best/home
 
 ---
 

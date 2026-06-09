@@ -319,7 +319,7 @@ The **Quora Kakobuy spreadsheet** has helped thousands of international sellers 
 
 - Kakobuy Official Platform: https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=1903531254#gid=1903531254
 - Gutefrage Kakobuy Discussion: /posts/gutefrage-kakobuy-spreadsheet/
-- Reddit Community Insights: /posts/reddit-kakobuy-spreadsheet/
+- Google Site: https://sites.google.com/view/kakobuy-spreadsheet-best/home
 - Quora E-commerce Forum: https://quora.com/topic/E-commerce
 
 ---
