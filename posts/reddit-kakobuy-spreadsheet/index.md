@@ -17,11 +17,6 @@ brandKeywords:
 
 # Reddit Kakobuy Spreadsheet: What the Community Is Saying
 
-<div class="post-meta">
-  <span>📅 Published: May 27, 2026</span>
-  <span>⏱️ Last updated: May 27, 2026</span>
-</div>
-
 ## Introduction
 
 Reddit has become one of the most active communities discussing the **Kakobuy spreadsheet**. From r/ecommerce to r/dropshipping, thousands of sellers are sharing their experiences, tips, and results using this popular sourcing tool.

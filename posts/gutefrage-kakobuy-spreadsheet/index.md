@@ -17,11 +17,6 @@ brandKeywords:
 
 # Gutefrage Kakobuy Spreadsheet: The Complete Guide for 2026
 
-<div class="post-meta">
-  <span>📅 Published: May 27, 2026</span>
-  <span>⏱️ Last updated: May 27, 2026</span>
-</div>
-
 ## Introduction
 
 If you've been searching for information about the **Gutefrage Kakobuy spreadsheet**, you're not alone. Thousands of cross-border e-commerce sellers have discovered this powerful resource through Germany's largest question-and-answer platform, Gutefrage.

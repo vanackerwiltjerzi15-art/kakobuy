@@ -17,11 +17,6 @@ brandKeywords:
 
 # Quora Kakobuy Spreadsheet: Lessons from International Sellers
 
-<div class="post-meta">
-  <span>📅 Published: May 27, 2026</span>
-  <span>⏱️ Last updated: May 27, 2026</span>
-</div>
-
 ## Introduction
 
 The **Quora Kakobuy spreadsheet** has become a hot topic among international e-commerce sellers on Quora. Thousands of entrepreneurs from the US, UK, Germany, Australia, and other countries have shared their success stories and insights about using this powerful sourcing tool.
