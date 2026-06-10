@@ -31,27 +31,6 @@ const guides = [
     description: 'Stay warm and stylish with Gorpcore techwear, premium puffer jackets, and high-street layering techniques.',
     date: '2026',
     tags: ['Winter', 'Techwear', 'Gorpcore']
-  },
-  {
-    title: '📊 Kakobuy Spreadsheets Gutefrage Guide',
-    url: '/posts/gutefrage-kakobuy-spreadsheet/',
-    description: "Everything you need to know about the Kakobuy spreadsheet discussed on Gutefrage, Germany's largest Q&A platform.",
-    date: '2026',
-    tags: ['Gutefrage', 'Spreadsheet', 'German Community']
-  },
-  {
-    title: '📊 Kakobuy Spreadsheets Quora Guide',
-    url: '/posts/quora-kakobuy-spreadsheet/',
-    description: 'Comprehensive guide to the Kakobuy spreadsheet featured on Quora, with insights from international sellers.',
-    date: '2026',
-    tags: ['Quora', 'Spreadsheet', 'International']
-  },
-  {
-    title: '📊 Kakobuy Spreadsheets Reddit Guide',
-    url: '/posts/reddit-kakobuy-spreadsheet/',
-    description: 'Deep dive into the Kakobuy spreadsheet discussions from Reddit communities like r/ecommerce and r/dropshipping.',
-    date: '2026',
-    tags: ['Reddit', 'Spreadsheet', 'Community Discussion']
   }
 ]
 
@@ -59,10 +38,7 @@ const hotArticles = [
   { title: 'Kakobuy Spreadsheets Spring Style Guide 2026', url: '/posts/spring-style/' },
   { title: 'Kakobuy Spreadsheets Summer Streetwear Guide 2026', url: '/posts/summer-style/' },
   { title: 'Kakobuy Spreadsheets Autumn Fashion Guide 2026', url: '/posts/autumn-style/' },
-  { title: 'Kakobuy Spreadsheets Winter Techwear Guide 2026', url: '/posts/winter-style/' },
-  { title: 'Kakobuy Spreadsheets Gutefrage Guide', url: '/posts/gutefrage-kakobuy-spreadsheet/' },
-  { title: 'Kakobuy Spreadsheets Quora Guide', url: '/posts/quora-kakobuy-spreadsheet/' },
-  { title: 'Kakobuy Spreadsheets Reddit Guide', url: '/posts/reddit-kakobuy-spreadsheet/' }
+  { title: 'Kakobuy Spreadsheets Winter Techwear Guide 2026', url: '/posts/winter-style/' }
 ]
 
 const navigateTo = (url) => {
