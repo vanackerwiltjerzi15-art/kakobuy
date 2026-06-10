@@ -18,12 +18,18 @@ const handleClick = () => {
 </script>
 
 <template>
-  <div class="left-marquee-container" @click="handleClick">
+  <div class="left-marquee-container" @click="handleClick" title="Click to view brand spreadsheet">
     <div class="left-marquee-title">Brands</div>
-    <div class="left-marquee-track">
-      <!-- Duplicate for seamless loop -->
-      <div v-for="(brand, index) in [...brands, ...brands]" :key="index" class="left-marquee-item">
-        {{ brand }}
+    <div class="left-marquee-mask top"></div>
+    <div class="left-marquee-mask bottom"></div>
+    <div class="left-marquee-scroll">
+      <div class="left-marquee-content">
+        <div v-for="(brand, index) in brands" :key="`a-${index}`" class="left-marquee-item">
+          {{ brand }}
+        </div>
+        <div v-for="(brand, index) in brands" :key="`b-${index}`" class="left-marquee-item">
+          {{ brand }}
+        </div>
       </div>
     </div>
   </div>
