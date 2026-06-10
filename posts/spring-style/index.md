@@ -1,10 +1,9 @@
-***
-
+---
 layout: doc
 title: "Kakobuy Spreadsheets 2026 Mens Spring Streetwear Guide: CleanFit & Light Layering | Kakobuy"
 description: "Master the art of spring mens fashion with our CleanFit layering guide. Discover lightweight jackets, essential hoodies, and versatile outfit formulas for the 2026 season."
-tags: \["kakobuy spring 2026", "mens spring fashion", "cleanfit spring", "lightweight jackets", "spring streetwear"]
---------------------------------------------------------------------------------------------------------------------
+tags: ["kakobuy spring 2026", "mens spring fashion", "cleanfit spring", "lightweight jackets", "spring streetwear"]
+---
 
 # Kakobuy Spreadsheets 2026 Mens Spring Streetwear Guide: CleanFit & Light Layering
 

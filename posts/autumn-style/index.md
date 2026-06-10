@@ -1,10 +1,9 @@
-***
-
+---
 layout: doc
 title: "Kakobuy Spreadsheets 2026 Mens Autumn Fashion Guide: Earth Tones & Heavyweight Workwear | Kakobuy"
 description: "Embrace the fall season with our autumn mens fashion guide. Explore earth tone palettes, heavyweight work shirts, vintage Americana style, and layering essentials for 2026."
-tags: \["kakobuy autumn 2026", "mens autumn fashion", "earth tone style", "workwear fashion", "autumn streetwear"]
-------------------------------------------------------------------------------------------------------------------
+tags: ["kakobuy autumn 2026", "mens autumn fashion", "earth tone style", "workwear fashion", "autumn streetwear"]
+---
 
 # Kakobuy Spreadsheets 2026 Mens Autumn Fashion Guide: Earth Tones & Heavyweight Workwear
 

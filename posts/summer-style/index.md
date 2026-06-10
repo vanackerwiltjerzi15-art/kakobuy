@@ -1,10 +1,9 @@
-***
-
+---
 layout: doc
 title: "Kakobuy Spreadsheets 2026 Mens Summer Streetwear Guide: CleanFit & CityBoy Aesthetics | Kakobuy"
 description: "Beat the heat without sacrificing your style. Discover the hottest 2026 mens summer fashion trends, heavyweight tee recommendations, and cargo shorts styling tricks."
-tags: \["kakobuy summer 2026", "mens summer fashion", "cityboy style", "heavyweight tee", "summer streetwear"]
---------------------------------------------------------------------------------------------------------------
+tags: ["kakobuy summer 2026", "mens summer fashion", "cityboy style", "heavyweight tee", "summer streetwear"]
+---
 
 # ☀️ Kakobuy Spreadsheets 2026 Mens Summer Streetwear Guide: CleanFit & CityBoy Aesthetics
 
