@@ -1,5 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
-import { h } from 'vue'
+import { h, Fragment } from 'vue'
 import { useData } from 'vitepress'
 import './custom.css'
 import CustomDocLayout from './CustomDocLayout.vue'
@@ -52,12 +52,12 @@ export default {
     const fullMarqueeContent = [...createMarqueeContent(), ...createMarqueeContent()]
 
     return h(DefaultTheme.Layout, null, {
-      'layout-top': () => [
+      'layout-top': () => h(Fragment, null, [
         h('div', { class: 'marquee-container' }, [
           h('div', { class: 'marquee-track' }, fullMarqueeContent)
         ]),
         isDoc ? h(LeftMarquee) : null
-      ],
+      ]),
       'doc': () => isDoc ? h(CustomDocLayout) : undefined,
       'layout-bottom': () => h('a', {
         class: 'discord-float-btn',
