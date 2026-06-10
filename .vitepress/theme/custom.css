@@ -422,6 +422,22 @@ body {
   display: none !important;
 }
 
+/* Hide article tags from frontend display (keep for SEO crawlers) */
+article .tags,
+article .tag-list,
+article [class*="tag"],
+.doc-content .tags,
+.doc-content .tag-list,
+.doc-content [class*="tag"] {
+  position: absolute !important;
+  left: -9999px !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
 /* ============================================
    Left Side Vertical Marquee Banner (Article Pages)
    ============================================ */
