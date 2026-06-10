@@ -426,7 +426,14 @@ body {
    Left Side Vertical Marquee Banner (Article Pages)
    ============================================ */
 
+/* Hide left marquee by default */
 .left-marquee-container {
+  display: none;
+}
+
+/* Show left marquee only on doc pages */
+body.layout-doc .left-marquee-container {
+  display: block;
   position: fixed;
   left: 0;
   top: 50%;
