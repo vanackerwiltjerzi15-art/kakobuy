@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: "2026 Mens Winter Fashion Guide: Gorpcore Techwear & Premium Puffers | Kakobuy"
+title: "Kakobuy Spreadsheets 2026 Mens Winter Fashion Guide: Gorpcore Techwear & Premium Puffers | Kakobuy"
 description: "Stay warm and stylish this winter with our comprehensive mens winter fashion guide. Explore Gorpcore techwear, premium puffer jackets, high-street layering techniques, and cold-weather essentials for 2026."
 tags: ["kakobuy winter 2026", "mens winter fashion", "gorpcore techwear", "puffer jacket", "winter streetwear"]
 ---
 
-# ❄️ 2026 Mens Winter Fashion Guide: Gorpcore Techwear & Premium Puffers
+# ❄️ Kakobuy Spreadsheets 2026 Mens Winter Fashion Guide: Gorpcore Techwear & Premium Puffers
 
-![2026 Mens Winter Fashion Guide - Gorpcore Techwear & Premium Puffers by Kakobuy](./MEN'S%20FASHION%20GUIDE.png)
+![2026 Mens Winter Fashion Guide - Gorpcore Techwear & Premium Puffers by Kakobuy](./mens-fashion-guide.png)
 
 Winter fashion is where function meets style at its highest level. The 2026 winter season is defined by technical fabrics, bold silhouettes, and innovative layering systems that keep you warm without compromising your aesthetic. From Gorpcore outdoor-inspired looks to sleek urban techwear, here's everything you need to dominate the cold months.
 

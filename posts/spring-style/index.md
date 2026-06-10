@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: "2026 Mens Spring Streetwear Guide: CleanFit & Light Layering | Kakobuy"
+title: "Kakobuy Spreadsheets 2026 Mens Spring Streetwear Guide: CleanFit & Light Layering | Kakobuy"
 description: "Master the art of spring mens fashion with our CleanFit layering guide. Discover lightweight jackets, essential hoodies, and versatile outfit formulas for the 2026 season."
 tags: ["kakobuy spring 2026", "mens spring fashion", "cleanfit spring", "lightweight jackets", "spring streetwear"]
 ---
 
-# 🌸 2026 Mens Spring Streetwear Guide: CleanFit & Light Layering
+#  Kakobuy Spreadsheets 2026 Mens Spring Streetwear Guide: CleanFit & Light Layering
 
-![2026 Mens Spring Streetwear Guide - CleanFit & Light Layering by Kakobuy](./MEN'S%20FASHION%20GUIDE.png)
+![2026 Mens Spring Streetwear Guide - CleanFit & Light Layering by Kakobuy](./mens-fashion-guide.png)
 
 Spring is the ultimate transitional season for mens fashion. The key to nailing your spring wardrobe is mastering the art of light layering—combining breathable base pieces with versatile outerwear that adapts to unpredictable weather. Whether you're heading to class, the office, or a weekend outing, these outfit formulas will keep you looking sharp all season long.
 
