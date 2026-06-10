@@ -70,6 +70,7 @@ export default {
         ]),
         h('span', { class: 'discord-float-label' }, 'Discord')
       ])
+      ])
     })
   },
 }
