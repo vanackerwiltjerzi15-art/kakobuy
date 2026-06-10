@@ -423,6 +423,103 @@ body {
 }
 
 /* ============================================
+   Left Side Vertical Marquee Banner (Article Pages)
+   ============================================ */
+
+.left-marquee-container {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 70vh;
+  overflow: hidden;
+  background: linear-gradient(180deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
+  z-index: 150;
+  cursor: pointer;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.left-marquee-container::before,
+.left-marquee-container::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 60px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.left-marquee-container::before {
+  top: 0;
+  background: linear-gradient(180deg, #1a1a1a 0%, transparent 100%);
+}
+
+.left-marquee-container::after {
+  bottom: 0;
+  background: linear-gradient(0deg, #1a1a1a 0%, transparent 100%);
+}
+
+.left-marquee-title {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #d4a843;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  z-index: 3;
+  text-transform: uppercase;
+}
+
+.left-marquee-track {
+  display: flex;
+  flex-direction: column;
+  animation: marquee-vertical-scroll 120s linear infinite;
+  will-change: transform;
+  padding-top: 28px;
+}
+
+.left-marquee-track:hover {
+  animation-play-state: paused;
+}
+
+.left-marquee-item {
+  color: #e0e0e0;
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 6px 8px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 0.5px;
+  transition: color 0.3s;
+}
+
+.left-marquee-item:hover {
+  color: #d4a843;
+}
+
+@keyframes marquee-vertical-scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+/* Hide left marquee on mobile */
+@media (max-width: 768px) {
+  .left-marquee-container {
+    display: none;
+  }
+}
+
+/* ============================================
    Global Marquee / Scrolling Banner
    ============================================ */
 
