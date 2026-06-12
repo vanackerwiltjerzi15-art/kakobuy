@@ -439,6 +439,61 @@ article [class*="tag"],
 }
 
 /* ============================================
+   Three-Column Article Layout (Brand Directory + Content + Trending)
+   ============================================ */
+
+.doc-sidebars-wrapper {
+  display: none;
+}
+
+.doc-sidebar-left-wrapper,
+.doc-sidebar-right-wrapper {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  .VPDoc .container {
+    max-width: 1280px !important;
+  }
+
+  .VPDoc .content-container {
+    max-width: 100% !important;
+  }
+
+  .VPDoc .content {
+    display: grid !important;
+    grid-template-columns: 220px 1fr 240px !important;
+    gap: 2rem !important;
+    align-items: start !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .VPDoc .content > .vp-doc {
+    grid-column: 2 !important;
+    min-width: 0 !important;
+  }
+
+  .doc-sidebars-wrapper {
+    display: contents !important;
+  }
+
+  .doc-sidebar-left-wrapper {
+    display: block !important;
+    grid-column: 1 !important;
+    position: sticky !important;
+    top: 5rem !important;
+  }
+
+  .doc-sidebar-right-wrapper {
+    display: block !important;
+    grid-column: 3 !important;
+    position: sticky !important;
+    top: 5rem !important;
+  }
+}
+
+/* ============================================
    Global Marquee / Scrolling Banner
    ============================================ */
 
