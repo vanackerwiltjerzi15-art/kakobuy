@@ -3,7 +3,6 @@ import { h } from 'vue'
 import { useData } from 'vitepress'
 import './custom.css'
 import CustomDocLayout from './CustomDocLayout.vue'
-import LeftMarquee from './LeftMarquee.vue'
 
 const marqueeData = [
   { text: 'European users have placed their orders' },
@@ -57,7 +56,6 @@ export default {
       ]),
       'doc': () => isDoc ? h(CustomDocLayout) : undefined,
       'layout-bottom': () => h('div', { class: 'layout-bottom-wrapper' }, [
-        isDoc ? h(LeftMarquee) : null,
         h('a', {
           class: 'discord-float-btn',
           href: 'https://discord.gg/jtc399kUQV',
