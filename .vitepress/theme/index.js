@@ -55,15 +55,15 @@ export default {
       'layout-top': () => h('div', { class: 'marquee-container' }, [
         h('div', { class: 'marquee-track' }, fullMarqueeContent)
       ]),
-      'doc-before': () => isDoc ? h('div', { class: 'doc-sidebars-wrapper' }, [
-        h('div', { class: 'doc-sidebar-left-wrapper' }, [
-          h(LeftSidebar)
-        ]),
-        h('div', { class: 'doc-sidebar-right-wrapper' }, [
-          h(RightSidebar)
-        ])
-      ]) : null,
       'layout-bottom': () => h('div', { class: 'layout-bottom-wrapper' }, [
+        isDoc ? h('div', { class: 'doc-sidebars-wrapper' }, [
+          h('div', { class: 'doc-sidebar-left-wrapper' }, [
+            h(LeftSidebar)
+          ]),
+          h('div', { class: 'doc-sidebar-right-wrapper' }, [
+            h(RightSidebar)
+          ])
+        ]) : null,
         h('a', {
           class: 'discord-float-btn',
           href: 'https://discord.gg/jtc399kUQV',
