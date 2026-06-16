@@ -2,8 +2,6 @@ import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
 import { useData } from 'vitepress'
 import './custom.css'
-import LeftSidebar from './LeftSidebar.vue'
-import RightSidebar from './RightSidebar.vue'
 
 const marqueeData = [
   { text: 'European users have placed their orders' },
@@ -55,14 +53,6 @@ export default {
       'layout-top': () => h('div', { class: 'marquee-container' }, [
         h('div', { class: 'marquee-track' }, fullMarqueeContent)
       ]),
-      'doc-top': () => isDoc ? h('div', { class: 'doc-sidebars-wrapper' }, [
-        h('div', { class: 'doc-sidebar-left-wrapper' }, [
-          h(LeftSidebar)
-        ]),
-        h('div', { class: 'doc-sidebar-right-wrapper' }, [
-          h(RightSidebar)
-        ])
-      ]) : null,
       'layout-bottom': () => h('div', { class: 'layout-bottom-wrapper' }, [
         h('a', {
           class: 'discord-float-btn',
