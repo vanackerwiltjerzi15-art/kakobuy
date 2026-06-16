@@ -446,11 +446,7 @@ article [class*="tag"],
   display: none;
 }
 
-.doc-sidebar-left-wrapper,
-.doc-sidebar-right-wrapper {
-  display: none;
-}
-
+/* Desktop: three-column grid layout */
 @media (min-width: 960px) {
   .VPDoc .container {
     max-width: 1280px !important;
@@ -461,8 +457,17 @@ article [class*="tag"],
   }
 
   .VPDoc .content {
-    padding-left: 240px !important;
-    padding-right: 260px !important;
+    display: grid !important;
+    grid-template-columns: 220px 1fr 240px !important;
+    gap: 2rem !important;
+    align-items: start !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .VPDoc .content > .vp-doc {
+    grid-column: 2 !important;
+    min-width: 0 !important;
   }
 
   .doc-sidebars-wrapper {
@@ -471,20 +476,62 @@ article [class*="tag"],
 
   .doc-sidebar-left-wrapper {
     display: block !important;
-    position: fixed !important;
-    left: 1rem !important;
-    top: 8rem !important;
-    width: 220px !important;
-    z-index: 10 !important;
+    grid-column: 1 !important;
+    position: sticky !important;
+    top: 5rem !important;
   }
 
   .doc-sidebar-right-wrapper {
     display: block !important;
-    position: fixed !important;
-    right: 1rem !important;
-    top: 8rem !important;
-    width: 240px !important;
-    z-index: 10 !important;
+    grid-column: 3 !important;
+    position: sticky !important;
+    top: 5rem !important;
+  }
+}
+
+/* Tablet: narrower sidebars */
+@media (min-width: 768px) and (max-width: 959px) {
+  .VPDoc .content {
+    display: grid !important;
+    grid-template-columns: 180px 1fr 200px !important;
+    gap: 1.5rem !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .VPDoc .content > .vp-doc {
+    grid-column: 2 !important;
+    min-width: 0 !important;
+  }
+
+  .doc-sidebars-wrapper {
+    display: contents !important;
+  }
+
+  .doc-sidebar-left-wrapper {
+    display: block !important;
+    grid-column: 1 !important;
+    position: sticky !important;
+    top: 5rem !important;
+  }
+
+  .doc-sidebar-right-wrapper {
+    display: block !important;
+    grid-column: 3 !important;
+    position: sticky !important;
+    top: 5rem !important;
+  }
+}
+
+/* Mobile: hide sidebars, full-width content */
+@media (max-width: 767px) {
+  .doc-sidebars-wrapper {
+    display: none !important;
+  }
+
+  .VPDoc .content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
 
