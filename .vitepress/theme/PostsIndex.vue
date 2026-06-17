@@ -398,7 +398,7 @@ onMounted(() => {
   gap: 48px;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 6rem 0 2rem;
 }
 
 @media (max-width: 960px) {
