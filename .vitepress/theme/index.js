@@ -2,6 +2,7 @@ import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
 import { useData } from 'vitepress'
 import './custom.css'
+import CustomHero from './CustomHero.vue'
 
 const marqueeData = [
   { text: 'European users have placed their orders' },
@@ -43,13 +44,17 @@ function createMarqueeContent() {
 
 export default {
   ...DefaultTheme,
+  enhanceApp({ app }) {
+    app.component('CustomHero', CustomHero)
+  },
   Layout() {
-    const { page } = useData()
-    const isDoc = page.value?.layout === 'doc'
+    const { page, frontmatter } = useData()
+    const isHome = page.value?.layout === 'home'
 
     const fullMarqueeContent = [...createMarqueeContent(), ...createMarqueeContent()]
 
     return h(DefaultTheme.Layout, null, {
+      'home-hero-before': isHome ? () => h(CustomHero) : null,
       'layout-top': () => h('div', { class: 'marquee-container' }, [
         h('div', { class: 'marquee-track' }, fullMarqueeContent)
       ]),
