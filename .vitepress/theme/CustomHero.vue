@@ -14,7 +14,7 @@ function handleAction(action) {
 </script>
 
 <template>
-  <section class="VPHero has-image">
+  <section class="CustomHero has-image">
     <div class="container">
       <div class="main">
         <h1 class="name">
@@ -54,19 +54,19 @@ function handleAction(action) {
 </template>
 
 <style scoped>
-.VPHero {
+.CustomHero {
   margin-top: calc((var(--vp-nav-height) + var(--vp-layout-top-height, 0px)) * -1);
   padding: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + 48px) 24px 48px;
 }
 
 @media (min-width: 640px) {
-  .VPHero {
+  .CustomHero {
     padding: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + 80px) 48px 64px;
   }
 }
 
 @media (min-width: 960px) {
-  .VPHero {
+  .CustomHero {
     padding: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + 80px) 48px 64px;
   }
 }
