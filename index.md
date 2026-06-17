@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: Open Kakobuy Spreadsheet
-      link: /platforms/
+      link: https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=1903531254#gid=1903531254
     - theme: alt
       text: Other Platforms
       link: /platforms/

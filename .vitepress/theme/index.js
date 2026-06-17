@@ -2,7 +2,6 @@ import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
 import { useData } from 'vitepress'
 import './custom.css'
-import CustomHero from './CustomHero.vue'
 
 const marqueeData = [
   { text: 'European users have placed their orders' },
@@ -44,17 +43,41 @@ function createMarqueeContent() {
 
 export default {
   ...DefaultTheme,
-  enhanceApp({ app }) {
-    app.component('CustomHero', CustomHero)
+  enhanceApp({ app, router }) {
+    // Intercept Google Spreadsheet link on initial load
+    if (typeof window !== 'undefined') {
+      const interceptHeroLink = () => {
+        const heroActions = document.querySelectorAll('.VPHero .actions .VPButton')
+        heroActions.forEach(btn => {
+          if (btn.textContent.includes('Kakobuy Spreadsheet')) {
+            btn.removeAttribute('href')
+            btn.setAttribute('role', 'button')
+            btn.onclick = () => {
+              window.open('https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=1903531254#gid=1903531254', '_blank')
+            }
+          }
+        })
+      }
+      // Handle initial page load
+      if (document.readyState === 'complete') {
+        interceptHeroLink()
+      } else {
+        window.addEventListener('DOMContentLoaded', interceptHeroLink)
+      }
+      // Handle SPA navigation
+      router.onAfterRouteChanged = (to) => {
+        if (to === '/') {
+          setTimeout(interceptHeroLink, 100)
+        }
+      }
+    }
   },
   Layout() {
-    const { page, frontmatter } = useData()
-    const isHome = page.value?.layout === 'home'
+    const { page } = useData()
 
     const fullMarqueeContent = [...createMarqueeContent(), ...createMarqueeContent()]
 
     return h(DefaultTheme.Layout, null, {
-      'home-hero-before': isHome ? () => h(CustomHero) : null,
       'layout-top': () => h('div', { class: 'marquee-container' }, [
         h('div', { class: 'marquee-track' }, fullMarqueeContent)
       ]),

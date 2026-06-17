@@ -27,18 +27,11 @@ body {
    Homepage Hero Styles
    ============================================ */
 
-/* Hide default VPHero since we use CustomHero with button onclick */
-.VPHero {
-  display: none !important;
-}
-
 /* --- Desktop: side-by-side layout, image top-aligned with title --- */
 /* 方案3：放大图片本身 */
-
-@media (max-width: 768px) {
-  .VPHero {
-    padding: 6rem 0 2rem !important;
-  }
+.VPHero {
+  min-height: 400px !important;
+  padding: 8rem 0 2rem !important;
 }
 
 .VPHero .container {
