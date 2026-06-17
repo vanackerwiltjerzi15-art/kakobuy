@@ -37,7 +37,7 @@ Athleisure meets streetwear in this versatile spring look that prioritizes comfo
 
 ## 🔥 Featured Spring Wardrobe Essentials
 
-<a href="https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=1903531254#gid=1903531254" target="_blank" rel="noopener noreferrer">
+<a href="https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=1903531254#gid=1903531254" target="_blank" rel="nofollow noopener noreferrer">
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 24px 0;">
   <div style="background: #1b1b1f; padding: 16px; border-radius: 8px; border: 1px solid #2e2e32; text-align: center;">
     <h4 style="margin: 12px 0 4px 0; color: #fff;">Lightweight Bomber Jacket</h4>
