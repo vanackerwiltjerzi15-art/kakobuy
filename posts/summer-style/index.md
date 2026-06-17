@@ -54,7 +54,7 @@ For those summer days when you want to look polished but still feel the breeze.
     <p style="color: #888; font-size: 13px; margin: 0;">Resort Essential</p>
   </div>
 </div>
-</a>
+</button>
 
 ## 📐 Summer Outfit Formulas at a Glance
 

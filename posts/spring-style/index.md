@@ -52,7 +52,7 @@ Athleisure meets streetwear in this versatile spring look that prioritizes comfo
     <p style="color: #888; font-size: 13px; margin: 0;">Versatile bottom essential</p>
   </div>
 </div>
-</a>
+</button>
 
 ## 📐 Spring Outfit Formulas at a Glance
 
