@@ -17,7 +17,7 @@
 | **封面图片文件名** | `{image-filename}`（如 `mens-fashion-guide.png`） |
 | **Google Spreadsheet 链接** | `{spreadsheet-url}` |
 | **Discord 邀请链接** | `https://discord.com/invite/jtc399kUQV` |
-| **Google Analytics 衡量 ID** | `G-674NVFF73M`（已在 config.mjs 全局配置，所有文章自动追踪） |
+| **Google Analytics 衡量 ID** | `G-Y6V5YTKF9Q`（已在 config.mjs 全局配置，所有文章自动追踪） |
 
 ### 文章列表
 
