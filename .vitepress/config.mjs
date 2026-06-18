@@ -54,6 +54,16 @@ export default defineConfig({
   
   sitemap: {
     hostname: 'https://kakobuy-7zh.pages.dev',
+    transformItems(items) {
+      return items.filter(item => {
+        const path = item.url.replace('https://kakobuy-7zh.pages.dev', '')
+        // Exclude internal files
+        if (path === '/README' || path === '/article-matrix-template' || path === '/scripts/article-template') return false
+        // Exclude media.md pages
+        if (path.includes('/media')) return false
+        return true
+      })
+    },
   },
   
   build: {
