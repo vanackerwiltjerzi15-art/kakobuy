@@ -2,8 +2,8 @@
 
 ## Cover Image
 
-- **Filename:** `batch-guide.png`
-- **Location:** `posts/top-hot-fashion/batch-guide.png`
+- **Filename:** `media-resources-top-hot-fashion.png`
+- **Location:** `public/image/media-resources-top-hot-fashion.png`
 - **Recommended Size:** 1200x630px (OG) or 1920x1080px
 - **Format:** PNG or WebP
 

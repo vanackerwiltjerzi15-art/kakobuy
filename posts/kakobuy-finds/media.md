@@ -2,8 +2,8 @@
 
 ## Cover Image
 
-- **Filename:** `batch-guide.png`
-- **Location:** `posts/kakobuy-finds/batch-guide.png`
+- **Filename:** `media-resources-hidden-gems.png`
+- **Location:** `public/image/media-resources-hidden-gems.png`
 - **Recommended Size:** 1200x630px (OG) or 1920x1080px
 - **Format:** PNG or WebP
 

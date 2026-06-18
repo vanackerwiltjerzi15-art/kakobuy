@@ -9,7 +9,7 @@ tags: ["kakobuy 1:1", "kakobuy 1:1 spreadsheet", "1:1 quality fashion", "premium
 
 [← Back to Home](/) · [Browse Guides](/posts/)
 
-![Kakobuy 1:1 Spreadsheet premium quality fashion picks guide by Kakobuy](/image/Media Resources - 11 Quality Picks.png)
+![Kakobuy 1:1 Spreadsheet premium quality fashion picks guide by Kakobuy](/image/media-resources-11-quality-picks.png)
 
 The 1:1 category represents the pinnacle of quality in Kakobuy's spreadsheet collection. These items are crafted with meticulous attention to detail, using premium materials and construction techniques that rival original designer pieces. Whether you're new to 1:1 fashion or a seasoned collector, this guide will help you navigate the best options available.
 

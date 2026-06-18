@@ -2,8 +2,8 @@
 
 ## Cover Image
 
-- **Filename:** `batch-guide.png`
-- **Location:** `posts/ultimate-spreadsheet/batch-guide.png`
+- **Filename:** `media-resources-ultimate-collection.png`
+- **Location:** `public/image/media-resources-ultimate-collection.png`
 - **Recommended Size:** 1200x630px (OG) or 1920x1080px
 - **Format:** PNG or WebP
 

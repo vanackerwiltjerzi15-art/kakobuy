@@ -2,8 +2,8 @@
 
 ## Cover Image
 
-- **Filename:** `batch-guide.png`
-- **Location:** `posts/best-batch-2026/batch-guide.png`
+- **Filename:** `media-resources-2026-best-batch.png`
+- **Location:** `public/image/media-resources-2026-best-batch.png`
 - **Recommended Size:** 1200x630px (OG) or 1920x1080px
 - **Format:** PNG or WebP
 

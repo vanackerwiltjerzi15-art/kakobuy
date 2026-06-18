@@ -2,8 +2,8 @@
 
 ## Cover Image
 
-- **Filename:** `batch-guide.png`
-- **Location:** `posts/1-to-1-spreadsheet/batch-guide.png`
+- **Filename:** `media-resources-11-quality-picks.png`
+- **Location:** `public/image/media-resources-11-quality-picks.png`
 - **Recommended Size:** 1200x630px (OG) or 1920x1080px
 - **Format:** PNG or WebP
 
