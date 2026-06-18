@@ -80,7 +80,7 @@ Get exclusive access to:
 - **Member-Only Deals** — Early access to seasonal sales and exclusive discount codes
 - **Style Consultation** — Real-time advice from our styling team to help you build the perfect wardrobe
 
-👉 **[Join Kakobuy Discord](https://discord.gg/your-invite-link)** to connect with our community and elevate your style game!
+👉 **[Join Kakobuy Discord](https://discord.com/invite/jtc399kUQV)** to connect with our community and elevate your style game!
 :::
 
 ***

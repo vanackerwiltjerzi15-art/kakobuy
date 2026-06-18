@@ -16,7 +16,7 @@
 | **文章数量** | `{article-count}`（如 `4`） |
 | **封面图片文件名** | `{image-filename}`（如 `mens-fashion-guide.png`） |
 | **Google Spreadsheet 链接** | `{spreadsheet-url}` |
-| **Discord 邀请链接** | `{discord-url}` |
+| **Discord 邀请链接** | `https://discord.com/invite/jtc399kUQV` |
 | **Google Analytics 衡量 ID** | `G-674NVFF73M`（已在 config.mjs 全局配置，所有文章自动追踪） |
 
 ### 文章列表
@@ -113,7 +113,7 @@ Get exclusive access to:
 - **Member-Only Deals** — Early access to seasonal sales and exclusive discount codes
 - **Style Consultation** — Real-time advice from our styling team to help you build the perfect wardrobe
 
-[Join Kakobuy Discord]({discord-url}) to connect with our community and elevate your style game!
+[Join Kakobuy Discord](https://discord.com/invite/jtc399kUQV) to connect with our community and elevate your style game!
 :::
 
 ***
