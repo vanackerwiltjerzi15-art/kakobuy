@@ -403,7 +403,7 @@ body {
 }
 
 .VPDoc .content-container {
-  max-width: 900px !important;
+  max-width: 1080px !important;
   margin: 0 auto !important;
   padding: 0 2rem !important;
 }
