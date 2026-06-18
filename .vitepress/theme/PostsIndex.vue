@@ -9,9 +9,22 @@ const CATEGORIES = [
     label: 'Season Selection',
     items: [
       { name: 'Spring', icon: '🌸', url: '/posts/spring-style/', color: '#22c55e' },
-      { name: 'Summer', icon: '☀️', url: '/posts/summer-style/', color: '#f59e0b' },
-      { name: 'Autumn', icon: '🍁', url: '/posts/autumn-style/', color: '#ea580c' },
-      { name: 'Winter', icon: '️', url: '/posts/winter-style/', color: '#3b82f6' }
+      { name: 'Summer', icon: '️', url: '/posts/summer-style/', color: '#f59e0b' },
+      { name: 'Autumn', icon: '', url: '/posts/autumn-style/', color: '#ea580c' },
+      { name: 'Winter', icon: '❄️', url: '/posts/winter-style/', color: '#3b82f6' }
+    ]
+  },
+  {
+    label: 'Batch Picks',
+    items: [
+      { name: 'Best Batch', icon: '⭐', url: '/posts/best-batch/', color: '#f59e0b' },
+      { name: '2026 Best', icon: '', url: '/posts/best-batch-2026/', color: '#22c55e' },
+      { name: '2025 Classic', icon: '📀', url: '/posts/best-batch-2025/', color: '#a855f7' },
+      { name: '1:1 Quality', icon: '', url: '/posts/1-to-1-spreadsheet/', color: '#06b6d4' },
+      { name: 'Budget', icon: '💰', url: '/posts/budget-spreadsheet/', color: '#10b981' },
+      { name: 'Ultimate', icon: '👑', url: '/posts/ultimate-spreadsheet/', color: '#eab308' },
+      { name: 'Hot Fashion', icon: '🔥', url: '/posts/top-hot-fashion/', color: '#ef4444' },
+      { name: 'Hidden Gems', icon: '🔍', url: '/posts/kakobuy-finds/', color: '#8b5cf6' }
     ]
   }
   // Future categories can be added here:
