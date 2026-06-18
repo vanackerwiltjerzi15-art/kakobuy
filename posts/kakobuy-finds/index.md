@@ -9,7 +9,7 @@ tags: ["kakobuy finds", "kakobuy finds spreadsheet", "hidden gem fashion", "unde
 
 [← Back to Home](/) · [Browse Guides](/posts/)
 
-![Kakobuy Finds Spreadsheet hidden gems and unique fashion picks guide](./batch-guide.png)
+![Kakobuy Finds Spreadsheet hidden gems and unique fashion picks guide by Kakobuy](/image/Media Resources - Hidden Gems.png)
 
 The best fashion finds aren't always the most popular ones. Kakobuy's spreadsheet collection is full of hidden gems—underrated items, unique pieces, and secret treasures that most shoppers overlook. This guide reveals these hidden finds, helping you build a wardrobe that's distinctive, personal, and genuinely unique. Because true style isn't about following the crowd—it's about finding pieces that speak to you.
 

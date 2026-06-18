@@ -9,7 +9,7 @@ tags: ["kakobuy ultimate", "ultimate kakobuy spreadsheet", "complete fashion gui
 
 [← Back to Home](/) · [Browse Guides](/posts/)
 
-![Ultimate Kakobuy Spreadsheet complete fashion collection guide](./batch-guide.png)
+![Ultimate Kakobuy Spreadsheet complete fashion collection guide by Kakobuy](/image/Media Resources - Ultimate Collection.png)
 
 This is the ultimate guide to Kakobuy's entire spreadsheet collection. Whether you're looking for premium 1:1 pieces, budget-friendly alternatives, seasonal trends, or timeless classics—this guide covers it all. Think of it as your comprehensive roadmap to navigating Kakobuy's massive fashion ecosystem and building the perfect wardrobe for any occasion, style, or budget.
 

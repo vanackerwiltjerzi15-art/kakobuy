@@ -9,7 +9,7 @@ tags: ["kakobuy budget", "kakobuy budget spreadsheet", "affordable fashion guide
 
 [← Back to Home](/) · [Browse Guides](/posts/)
 
-![Kakobuy Budget Spreadsheet affordable fashion picks guide](./batch-guide.png)
+![Kakobuy Budget Spreadsheet affordable fashion picks guide by Kakobuy](/image/Media Resources - Budget-Friendly Picks.png)
 
 Looking great doesn't have to break the bank. Kakobuy's budget spreadsheet category proves that affordable fashion can still deliver impressive quality and style. Whether you're a student, just starting your career, or simply love a good deal, this guide shows you how to maximize your fashion budget without compromising on style.
 
