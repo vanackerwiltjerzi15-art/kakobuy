@@ -7,7 +7,7 @@ tags: ["kakobuy batch 2026", "kakobuy spreadsheet best batch", "batch picks 2026
 
 # Kakobuy Spreadsheets 2026 Best Batch Picks: Curated Top Items Guide
 
-[← Back to Home](/) · [Browse Guides](/posts/)
+[← Back to Home](/) · [Browse Archives](/posts/)
 
 ![Kakobuy Spreadsheets 2026 Best Batch Picks curated fashion guide by Kakobuy](/image/media-resources-best-batch-picks.png)
 
@@ -83,9 +83,9 @@ Get exclusive access to:
 
 ***
 
-### 🌐 Explore Other Guides
+### 🌐 Explore Other Archives
 
-- 🌸 **[Spring Guide:](/posts/spring-style/)** [Light Layering & CleanFit Jackets](/posts/spring-style/)
-- ️ **[Summer Guide:](/posts/summer-style/)** [CityBoy Style & Heavyweight Tees](/posts/summer-style/)
-- 🍁 **[Autumn Guide:](/posts/autumn-style/)** [Earth Tones & Heavyweight Workwear](/posts/autumn-style/)
-- ❄️ **[Winter Guide:](/posts/winter-style/)** [Gorpcore Techwear & Premium Puffers](/posts/winter-style/)
+- 🌸 **[Spring Archive:](/posts/spring-style/)** [Light Layering & CleanFit Jackets](/posts/spring-style/)
+- ☀️ **[Summer Archive:](/posts/summer-style/)** [CityBoy Style & Heavyweight Tees](/posts/summer-style/)
+-  **[Autumn Archive:](/posts/autumn-style/)** [Earth Tones & Heavyweight Workwear](/posts/autumn-style/)
+- ️ **[Winter Archive:](/posts/winter-style/)** [Gorpcore Techwear & Premium Puffers](/posts/winter-style/)

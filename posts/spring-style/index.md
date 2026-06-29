@@ -7,7 +7,7 @@ tags: ["kakobuy spring 2026", "mens spring fashion", "cleanfit spring", "lightwe
 
 # Kakobuy Spreadsheets 2026 Mens Spring Streetwear Guide: CleanFit & Light Layering
 
-[← Back to Home](/) · [Browse Guides](/posts/)
+[← Back to Home](/) · [Browse Archives](/posts/)
 
 ![2026 Mens Spring Streetwear Guide - CleanFit & Light Layering by Kakobuy](./mens-fashion-guide.png)
 
@@ -86,7 +86,7 @@ Get exclusive access to:
 
 ### 🌐 Explore Other Seasonal Lookbooks
 
-- ☀️ **[Summer Guide:](/posts/summer-style)** [CityBoy Style & Heavyweight Tees](/posts/summer-style)
-- 🍁 **[Autumn Guide:](/posts/autumn-style)** [Earth Tones & Heavyweight Workwear](/posts/autumn-style)
-- ❄️ **[Winter Guide:](/posts/winter-style)** [Gorpcore Techwear & Premium Puffers](/posts/winter-style)
+- ☀️ **[Summer Archive:](/posts/summer-style)** [CityBoy Style & Heavyweight Tees](/posts/summer-style)
+-  **[Autumn Archive:](/posts/autumn-style)** [Earth Tones & Heavyweight Workwear](/posts/autumn-style)
+- ❄️ **[Winter Archive:](/posts/winter-style)** [Gorpcore Techwear & Premium Puffers](/posts/winter-style)
 

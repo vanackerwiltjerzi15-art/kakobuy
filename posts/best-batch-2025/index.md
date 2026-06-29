@@ -7,7 +7,7 @@ tags: ["kakobuy batch 2025", "kakobuy spreadsheet 2025 best batch", "2025 batch 
 
 # Kakobuy Spreadsheets 2025 Best Batch: Classic Picks & Timeless Styles Guide
 
-[← Back to Home](/) · [Browse Guides](/posts/)
+[← Back to Home](/) · [Browse Archives](/posts/)
 
 ![Kakobuy Spreadsheets 2025 Best Batch classic picks and timeless styles fashion guide by Kakobuy](/image/media-resources-2025-best-batch.png)
 

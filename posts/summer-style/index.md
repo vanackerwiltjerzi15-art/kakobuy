@@ -7,7 +7,7 @@ tags: ["kakobuy summer 2026", "mens summer fashion", "cityboy style", "heavyweig
 
 # ️ Kakobuy Spreadsheets 2026 Mens Summer Streetwear Guide: CleanFit & CityBoy Aesthetics
 
-[← Back to Home](/) · [Browse Guides](/posts/)
+[← Back to Home](/) · [Browse Archives](/posts/)
 
 ![2026 Mens Summer Streetwear Guide - CleanFit & CityBoy Aesthetics by Kakobuy](./mens-fashion-guide.png)
 
@@ -87,7 +87,7 @@ Get exclusive access to:
 
 ### 🌐 Explore Other Seasonal Lookbooks
 
-- 🌸 **[Spring Guide:](/posts/spring-style)** [Light Layering & CleanFit Jackets](/posts/spring-style)
-- 🍁 **[Autumn Guide:](/posts/autumn-style)** [Earth Tones & Heavyweight Workwear](/posts/autumn-style)
-- ❄️ **[Winter Guide:](/posts/winter-style)** [Gorpcore Techwear & Premium Puffers](/posts/winter-style)
+- 🌸 **[Spring Archive:](/posts/spring-style)** [Light Layering & CleanFit Jackets](/posts/spring-style)
+- 🍁 **[Autumn Archive:](/posts/autumn-style)** [Earth Tones & Heavyweight Workwear](/posts/autumn-style)
+- ❄️ **[Winter Archive:](/posts/winter-style)** [Gorpcore Techwear & Premium Puffers](/posts/winter-style)
 

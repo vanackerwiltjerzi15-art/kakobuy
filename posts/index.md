@@ -1,7 +1,7 @@
 ---
 layout: page
-title: All Guides
-description: Browse all Kakobuy spreadsheet guides and tutorials
+title: All Archives
+description: Browse all Kakobuy spreadsheet archives and tutorials
 ---
 
 <script setup>

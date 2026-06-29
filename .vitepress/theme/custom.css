@@ -640,7 +640,7 @@ article [class*="tag"],
 }
 
 @media (max-width: 768px) {
-  /* --- Mobile: stack vertically, image top, text below --- */
+  /* --- Mobile: hide hero image, stack text only --- */
   .VPHero .container {
     flex-direction: column !important;
     gap: 0 !important;
@@ -648,45 +648,16 @@ article [class*="tag"],
   }
   
   .VPHero .main {
-    order: 2 !important;
+    order: 1 !important;
     max-width: 100% !important;
     text-align: center !important;
     padding-bottom: 0 !important;
     padding-top: 0 !important;
   }
   
+  /* Hide hero image on mobile */
   .VPHero .image {
-    order: 1 !important;
-    position: relative !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    height: auto !important;
-    top: auto !important;
-    bottom: auto !important;
-    left: auto !important;
-    right: auto !important;
-    transform: none !important;
-    margin: 0 -1rem 1.25rem -1rem !important;
-    padding: 0 !important;
-    opacity: 1 !important;
-    mask-image: none !important;
-    -webkit-mask-image: none !important;
-    flex: none !important;
-  }
-  
-  .VPHero .image-container {
-    width: 100% !important;
-    max-height: none !important;
-    border-radius: 0 !important;
-  }
-  
-  .VPHero .image img,
-  .VPHero .image .VPImage {
-    width: 100% !important;
-    height: auto !important;
-    max-height: none !important;
-    object-fit: contain !important;
-    border-radius: 0 !important;
+    display: none !important;
   }
   
   .VPHero .name {

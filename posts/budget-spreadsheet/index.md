@@ -7,7 +7,7 @@ tags: ["kakobuy budget", "kakobuy budget spreadsheet", "affordable fashion guide
 
 # Kakobuy Budget Spreadsheet Guide: Affordable Fashion Picks
 
-[← Back to Home](/) · [Browse Guides](/posts/)
+[← Back to Home](/) · [Browse Archives](/posts/)
 
 ![Kakobuy Budget Spreadsheet affordable fashion picks guide by Kakobuy](/image/media-resources-budget-friendly-picks.png)
 
@@ -83,9 +83,9 @@ Get exclusive access to:
 
 ***
 
-### 🌐 Explore Other Guides
+###  Explore Other Archives
 
--  **[Spring Guide:](/posts/spring-style/)** [Light Layering & CleanFit Jackets](/posts/spring-style/)
-- ☀️ **[Summer Guide:](/posts/summer-style/)** [CityBoy Style & Heavyweight Tees](/posts/summer-style/)
-- 🍁 **[Autumn Guide:](/posts/autumn-style/)** [Earth Tones & Heavyweight Workwear](/posts/autumn-style/)
-- ❄️ **[Winter Guide:](/posts/winter-style/)** [Gorpcore Techwear & Premium Puffers](/posts/winter-style/)
+-  **[Spring Archive:](/posts/spring-style/)** [Light Layering & CleanFit Jackets](/posts/spring-style/)
+- ☀️ **[Summer Archive:](/posts/summer-style/)** [CityBoy Style & Heavyweight Tees](/posts/summer-style/)
+- 🍁 **[Autumn Archive:](/posts/autumn-style/)** [Earth Tones & Heavyweight Workwear](/posts/autumn-style/)
+- ❄️ **[Winter Archive:](/posts/winter-style/)** [Gorpcore Techwear & Premium Puffers](/posts/winter-style/)

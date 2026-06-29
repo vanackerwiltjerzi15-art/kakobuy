@@ -7,7 +7,7 @@ tags: ["kakobuy winter 2026", "mens winter fashion", "gorpcore techwear", "puffe
 
 # ❄️ Kakobuy Spreadsheets 2026 Mens Winter Fashion Guide: Gorpcore Techwear & Premium Puffers
 
-[← Back to Home](/) · [Browse Guides](/posts/)
+[← Back to Home](/) · [Browse Archives](/posts/)
 
 ![2026 Mens Winter Fashion Guide - Gorpcore Techwear & Premium Puffers by Kakobuy](./mens-fashion-guide.png)
 
@@ -77,7 +77,7 @@ All items featured in our style guides are curated directly from top high-street
 
 ### Explore Other Seasonal Lookbooks
 
-- **[Spring Guide:](/posts/spring-style)** [Light Layering & CleanFit Jackets](/posts/spring-style)
-- ☀️ **[Summer Guide:](/posts/summer-style)** [CityBoy Style & Heavyweight Tees](/posts/summer-style)
-- **[Autumn Guide:](/posts/autumn-style)** [Earth Tones & Heavyweight Workwear](/posts/autumn-style)
+- **[Spring Archive:](/posts/spring-style)** [Light Layering & CleanFit Jackets](/posts/spring-style)
+- ☀️ **[Summer Archive:](/posts/summer-style)** [CityBoy Style & Heavyweight Tees](/posts/summer-style)
+- 🍁 **[Autumn Archive:](/posts/autumn-style)** [Earth Tones & Heavyweight Workwear](/posts/autumn-style)
 

@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Kakobuy Spreadsheet Guide',
-  description: 'Your ultimate guide to Kakobuy spreadsheets for cross-border e-commerce',
+  title: 'Kakobuy Spreadsheet Archive',
+  description: 'Your ultimate archive for Kakobuy spreadsheets for cross-border e-commerce',
   base: '/',
   lang: 'en-US',
   lastUpdated: true,
@@ -36,14 +36,14 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Other Platforms', link: '/platforms/' },
-      { text: 'Browse Guides', link: '/posts/' },
+      { text: 'Browse Archives', link: '/posts/' },
       { text: 'Spreadsheet', link: 'https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=1903531254#gid=1903531254', target: '_blank' },
     ],
     // Sidebar disabled - handled by CustomDocLayout
     sidebar: [],
     footer: {
-      message: 'Kakobuy Spreadsheet Guide - Your trusted resource for cross-border e-commerce | <a href="/sitemap.xml" rel="nofollow">Sitemap</a>',
-      copyright: 'Copyright © 2026 Kakobuy Spreadsheet Guide',
+      message: 'Kakobuy Spreadsheet Archive - Your trusted resource for cross-border e-commerce | <a href="/sitemap.xml" rel="nofollow">Sitemap</a>',
+      copyright: 'Copyright © 2026 Kakobuy Spreadsheet Archive',
     },
     docFooter: {
       prev: false,
@@ -85,11 +85,11 @@ export default defineConfig({
         description: frontmatter.description || '',
         author: {
           '@type': 'Organization',
-          name: 'Kakobuy Spreadsheet Guide',
+          name: 'Kakobuy Spreadsheet Archive',
         },
         publisher: {
           '@type': 'Organization',
-          name: 'Kakobuy Spreadsheet Guide',
+          name: 'Kakobuy Spreadsheet Archive',
           url: hostname,
         },
         datePublished: frontmatter.date || '',

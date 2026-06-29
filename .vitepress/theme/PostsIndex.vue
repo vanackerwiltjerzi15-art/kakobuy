@@ -45,8 +45,8 @@ const navigateTo = (url) => {
 <template>
   <div class="posts-layout">
     <div class="posts-main">
-      <h1>Browse Guides</h1>
-      <p class="posts-intro">Explore our collection of Kakobuy spreadsheet guides organized by category.</p>
+      <h1>Browse Archives</h1>
+      <p class="posts-intro">Explore our collection of Kakobuy spreadsheet archives organized by category.</p>
 
       <!-- Category Rows -->
       <div v-for="(category, catIndex) in CATEGORIES" :key="catIndex" class="category-row">
