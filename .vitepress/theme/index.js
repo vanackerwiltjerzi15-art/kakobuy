@@ -77,10 +77,31 @@ export default {
 
     const fullMarqueeContent = [...createMarqueeContent(), ...createMarqueeContent()]
 
+    // Article action buttons - only show on doc pages
+    const isDocPage = page.value && page.value.frontmatter && page.value.frontmatter.layout === 'doc'
+
+    const articleActions = isDocPage ? h('div', { class: 'article-actions' }, [
+      h('a', {
+        class: 'article-action-btn brand',
+        href: 'https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=1903531254#gid=1903531254',
+        target: '_blank',
+        rel: 'noopener noreferrer',
+        role: 'button',
+        'aria-label': 'Access Kakobuy Spreadsheet'
+      }, 'Access Kakobuy Spreadsheet'),
+      h('a', {
+        class: 'article-action-btn alt',
+        href: '/platforms/',
+        role: 'button',
+        'aria-label': 'Other Platforms'
+      }, 'Other Platforms')
+    ]) : null
+
     return h(DefaultTheme.Layout, null, {
       'layout-top': () => h('div', { class: 'marquee-container' }, [
         h('div', { class: 'marquee-track' }, fullMarqueeContent)
       ]),
+      'doc-top': () => articleActions,
       'layout-bottom': () => h('div', { class: 'layout-bottom-wrapper' }, [
         h('a', {
           class: 'discord-float-btn',

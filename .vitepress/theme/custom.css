@@ -412,6 +412,97 @@ body {
   text-align: center !important;
 }
 
+/* ============================================
+   Article Action Buttons
+   ============================================ */
+
+.VPDoc .content-container {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Move article-actions after h1 */
+.VPDoc .content-container > h1 {
+  order: 1 !important;
+}
+
+.VPDoc .content-container > .article-actions {
+  order: 2 !important;
+}
+
+.VPDoc .content-container > .theme-default-content {
+  order: 3 !important;
+}
+
+.article-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.article-action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1.5rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+  min-height: 44px;
+}
+
+.article-action-btn.brand {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: #667eea;
+}
+
+.article-action-btn.brand:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.article-action-btn.alt {
+  background: transparent;
+  color: #667eea;
+  border-color: #667eea;
+}
+
+.article-action-btn.alt:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.dark .article-action-btn.alt {
+  color: #a5b4fc;
+  border-color: #a5b4fc;
+}
+
+.dark .article-action-btn.alt:hover {
+  background: #a5b4fc;
+  color: #1a1a2e;
+}
+
+@media (max-width: 768px) {
+  .article-actions {
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .article-action-btn {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.85rem;
+  }
+}
+
 .VPLastUpdated {
   display: none !important;
 }
