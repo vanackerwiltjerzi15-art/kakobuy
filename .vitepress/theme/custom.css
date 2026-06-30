@@ -416,29 +416,11 @@ body {
    Article Action Buttons
    ============================================ */
 
-.VPDoc .content-container {
-  display: flex !important;
-  flex-direction: column !important;
-}
-
-/* Move article-actions after h1 */
-.VPDoc .content-container > h1 {
-  order: 1 !important;
-}
-
-.VPDoc .content-container > .article-actions {
-  order: 2 !important;
-}
-
-.VPDoc .content-container > .theme-default-content {
-  order: 3 !important;
-}
-
 .article-actions {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-bottom: 2rem;
+  margin: 1.5rem 0 2rem;
   flex-wrap: wrap;
 }
 
@@ -494,12 +476,24 @@ body {
 @media (max-width: 768px) {
   .article-actions {
     gap: 0.75rem;
-    margin-bottom: 1.5rem;
+    margin: 1rem 0 1.5rem;
   }
 
   .article-action-btn {
     padding: 0.5rem 1.2rem;
     font-size: 0.85rem;
+  }
+}
+
+/* Increase distance between marquee and title by 20% */
+.VPDoc h1 {
+  text-align: center !important;
+  margin-top: 2.4rem !important; /* increased from ~2rem */
+}
+
+@media (max-width: 768px) {
+  .VPDoc h1 {
+    margin-top: 1.8rem !important;
   }
 }
 
