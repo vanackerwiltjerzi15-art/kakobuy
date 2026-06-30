@@ -26,6 +26,24 @@ const CATEGORIES = [
       { name: 'Hot Fashion', icon: '🔥', url: '/posts/top-hot-fashion/', color: '#ef4444' },
       { name: 'Hidden Gems', icon: '🔍', url: '/posts/kakobuy-finds/', color: '#8b5cf6' }
     ]
+  },
+  {
+    label: 'Kakobuy Review',
+    items: [
+      { name: 'Jordan 4 Military Blue', icon: '', url: '/posts/nike-jordan-4-military-blue-review/', color: '#3b82f6' },
+      { name: 'Dunk Low Panda', icon: '🐼', url: '/posts/nike-dunk-low-panda-review/', color: '#6b7280' },
+      { name: 'Trapstar Irongate', icon: '🧥', url: '/posts/trapstar-irongate-hoodie-review/', color: '#1f2937' },
+      { name: 'Essentials Hoodie', icon: '', url: '/posts/essentials-hoodie-review/', color: '#a3a3a3' },
+      { name: 'Corteiz Cargos', icon: '👖', url: '/posts/corteiz-alcatraz-cargos-review/', color: '#166534' },
+      { name: 'Stussy 8 Ball', icon: '🎱', url: '/posts/stussy-8-ball-tee-review/', color: '#111827' },
+      { name: 'UV Jacket', icon: '☀️', url: '/posts/uv-sun-protection-jacket-review/', color: '#f97316' },
+      { name: 'Arc\'teryx Beta', icon: '🏔️', url: '/posts/arcteryx-beta-jacket-review/', color: '#0369a1' },
+      { name: 'Salomon XT-6', icon: '', url: '/posts/salomon-xt-6-review/', color: '#65a30d' },
+      { name: 'Yeezy 350 Granite', icon: '👟', url: '/posts/yeezy-350-granite-review/', color: '#78716c' },
+      { name: 'BAPE Shark', icon: '🦈', url: '/posts/bape-shark-hoodie-review/', color: '#15803d' },
+      { name: 'Prada Re-Nylon', icon: '👜', url: '/posts/prada-re-nylon-bag-review/', color: '#1e1e1e' },
+      { name: 'Nuptse 1996', icon: '', url: '/posts/north-face-1996-nuptse-review/', color: '#dc2626' }
+    ]
   }
   // Future categories can be added here:
   // {
